@@ -1,0 +1,72 @@
+{
+  "frontend": [
+    {
+      "title": "Next.js",
+      "img": "/images/next.svg"
+    },
+    {
+      "title": "React.js",
+      "img": "/images/react.svg"
+    }
+  ],
+  "backend": [
+    {
+      "title": "Express.js",
+      "img": "/images/express.svg"
+    },
+    {
+      "title": "Node.js",
+      "img": "/images/node.svg"
+    }
+  ],
+  "api": [
+    {
+      "title": "REST",
+      "img": "/images/rest.jpeg"
+    },
+    {
+      "title": "GraphQL",
+      "img": "/images/graphql.svg"
+    }
+  ],
+  "database": [
+    {
+      "title": "PostgreSQL",
+      "img": "/images/postgresql.svg"
+    },
+    {
+      "title": "MongoDB",
+      "img": "/images/mongo.svg"
+    }
+  ],
+  "mobile": [
+    {
+      "title": "Flutter",
+      "img": "/images/flutter.svg"
+    }
+  ],
+  "version control": [
+    {
+      "title": "Git",
+      "img": "/images/git.svg"
+    },
+    {
+      "title": "Github",
+      "img": "/images/github.svg"
+    }
+  ],
+  "others": [
+    {
+      "title": "TypeScript",
+      "img": "/images/typescript.svg"
+    },
+    {
+      "title": "Figma",
+      "img": "/images/figma.svg"
+    },
+    {
+      "title": "Tailwind css",
+      "img": "/images/tailwind.svg"
+    }
+  ]
+}
