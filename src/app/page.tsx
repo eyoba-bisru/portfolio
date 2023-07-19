@@ -4,6 +4,7 @@ import Navbar from "@/components/nav-bar";
 import Intro from "@/components/pages/intro";
 import Skills from "@/components/pages/skills";
 import Works from "@/components/pages/works";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -32,7 +33,14 @@ export default function Home() {
             onClick={goToTop}
             className="fixed z-20 bottom-[20px] right-[25px] h-12 w-12 text-white cursor-pointer"
           >
-            <img src="/icons/arrow.svg" alt="back to top" />
+            <div className="w-8 h-8 relative">
+              <Image
+                className="object-cover"
+                fill
+                src="/icons/arrow.svg"
+                alt="back to top"
+              />
+            </div>
           </div>
         )}
         <Navbar />
