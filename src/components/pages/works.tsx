@@ -7,7 +7,7 @@ export default function Works() {
       <h1 className="text-center text-3xl font-extrabold">Works</h1>
       <div className="grid gap-2 grid-cols-1 sm:grid-cols-2 mt-10">
         {projects.map((project) => (
-          <Project project={project} />
+          <Project key={project.name} project={project} />
         ))}
       </div>
     </div>

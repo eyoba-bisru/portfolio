@@ -33,6 +33,7 @@ export default function Navbar() {
         <div className="flex items-center gap-2">
           {links.map((link) => (
             <SocialLink
+              key={link.img}
               image={theme === "light" ? link.img : link["img-dark"]}
               link={link.link}
             />

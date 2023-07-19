@@ -60,7 +60,7 @@ export default function Project({
       </div>
       <div className="flex flex-wrap mt-4 gap-2">
         {technologies.map((technology) => (
-          <Badge>{technology}</Badge>
+          <Badge key={technology}>{technology}</Badge>
         ))}
       </div>
     </div>
