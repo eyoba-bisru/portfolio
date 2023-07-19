@@ -2,85 +2,71 @@
   "frontend": [
     {
       "title": "Next.js",
-      "img": "/images/next.svg",
-      "img-dark": "/images/next-light.svg"
+      "img": "/images/next.svg"
     },
     {
       "title": "React.js",
-      "img": "/images/react.svg",
-      "img-dark": "/images/react.svg"
+      "img": "/images/react.svg"
     }
   ],
   "backend": [
     {
       "title": "Express.js",
-      "img": "/images/express.svg",
-      "img-dark": "/images/express-light.svg"
+      "img": "/images/express.svg"
     },
     {
       "title": "Node.js",
-      "img": "/images/node.svg",
-      "img-dark": "/images/node.svg"
+      "img": "/images/node.svg"
     }
   ],
   "api": [
     {
       "title": "REST",
-      "img": "/images/rest.svg",
-      "img-dark": "/images/rest-light.svg"
+      "img": "/images/rest.jpeg"
     },
     {
       "title": "GraphQL",
-      "img": "/images/graphql.svg",
-      "img-dark": "/images/graphql.svg"
+      "img": "/images/graphql.svg"
     }
   ],
   "database": [
     {
       "title": "PostgreSQL",
-      "img": "/images/postgresql.svg",
-      "img-dark": "/images/postgresql.svg"
+      "img": "/images/postgresql.svg"
     },
     {
       "title": "MongoDB",
-      "img": "/images/mongo.svg",
-      "img-dark": "/images/mongo.svg"
+      "img": "/images/mongo.svg"
     }
   ],
   "mobile": [
     {
       "title": "Flutter",
-      "img": "/images/flutter.svg",
-      "img-dark": "/images/flutter.svg"
+      "img": "/images/flutter.svg"
     }
   ],
   "version control": [
     {
       "title": "Git",
-      "img": "/images/git.svg",
-      "img-dark": "/images/git.svg"
+      "img": "/images/git.svg"
     },
     {
       "title": "Github",
-      "img": "/icons/github.svg",
-      "img-dark": "icons/github-light.svg"
+      "img": "/images/github.svg"
     }
   ],
   "others": [
     {
       "title": "TypeScript",
-      "img": "/images/typescript.svg",
-      "img-dark": "/images/typescript.svg"
+      "img": "/images/typescript.svg"
     },
     {
       "title": "Figma",
-      "img": "/images/figma.svg",
-      "img-dark": "/images/figma.svg"
+      "img": "/images/figma.svg"
     },
     {
       "title": "Tailwind css",
-      "img": "/images/tailwind.svg",
-      "img-dark": "/images/tailwind.svg"
+      "img": "/images/tailwind.svg"
     }
   ]
 }

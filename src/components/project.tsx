@@ -1,8 +1,5 @@
-"use client";
-
 import Image from "next/image";
 import { Badge } from "./ui/badge";
-import { useTheme } from "next-themes";
 
 type Props = {
   project: {
@@ -16,8 +13,6 @@ type Props = {
 export default function Project({
   project: { name, technologies, view, github },
 }: Props) {
-  const { theme } = useTheme();
-
   return (
     <div className="border py-4 px-8 rounded-lg w-[70%] sm:w-full mx-auto">
       <div className="flex items-center justify-between">
@@ -28,11 +23,7 @@ export default function Project({
               <div title="view" className="w-8 h-8 relative">
                 <Image
                   className="object-cover"
-                  src={
-                    theme === "light"
-                      ? "/images/view.svg"
-                      : "/images/view-light.svg"
-                  }
+                  src="/images/view.svg"
                   fill
                   alt="view"
                 />
@@ -46,11 +37,7 @@ export default function Project({
             <div title="github link" className="w-6 h-6 relative">
               <Image
                 className="object-cover"
-                src={
-                  theme === "light"
-                    ? "/icons/github.svg"
-                    : "/icons/github-light.svg"
-                }
+                src="/images/github.svg"
                 fill
                 alt="github"
               />
