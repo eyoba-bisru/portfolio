@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Public News App",
+    "technologies": [
+      "Next.js",
+      "Tailwind",
+      "Chakra UI",
+      "Express.js",
+      "PostreSQL",
+      "TypeScript",
+      "Prisma",
+      "PWA"
+    ],
+    "view": "",
+    "github": "https://github.com/eyoba-bisru/public-news-frontend"
+  },
+  {
+    "name": "Chatting App",
+    "technologies": [
+      "Next.js",
+      "Tailwind",
+      "Redux Toolkit",
+      "Chakra UI",
+      "GraphQL",
+      "Apollo Server Express",
+      "MongoDB"
+    ],
+    "view": "https://chatting-app-ui.vercel.app/",
+    "github": "https://github.com/eyoba-bisru/chatting-app-ui"
+  },
+  {
+    "name": "Food recipe",
+    "technologies": [
+      "Next.js",
+      "Tailwind",
+      "Redux Toolkit",
+      "Material UI",
+      "Express.js",
+      "MongoDB"
+    ],
+    "view": "",
+    "github": "https://github.com/eyoba-bisru/food-recipe"
+  },
+  {
+    "name": "LinkedIn Clone",
+    "technologies": ["Next.js", "Tailwind", "Firebase", "Google OAuth"],
+    "view": "https://linkedin-clone-eyob.vercel.app/",
+    "github": "https://github.com/eyoba-bisru/linkedin-clone"
+  },
+  {
+    "name": "Pneumonia Prediction App",
+    "technologies": ["Flutter", "CNN", "Tensorflow", "TFLite"],
+    "github": "https://github.com/eyoba-bisru/pneumonia_prediction_app"
+  }
+]

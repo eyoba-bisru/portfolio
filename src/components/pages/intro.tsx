@@ -1,5 +1,6 @@
 import home from "../../data/home.json";
 import { buttonVariants } from "../ui/button";
+
 export default function Intro() {
   return (
     <div className="mx-auto flex flex-col justify-start mt-20 items-center max-w-lg lg:max-w-xl h-[calc(100vh-10rem)]">
