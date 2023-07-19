@@ -13,7 +13,11 @@ export default function SkillType({ type }: Props) {
         {
           // @ts-ignore
           skills[`${type.toLowerCase()}`].map((skill) => (
-            <div key={skill} title={skill.title} className="w-16 h-16 relative">
+            <div
+              key={skill.title}
+              title={skill.title}
+              className="w-16 h-16 relative"
+            >
               <Image
                 className="object-cover"
                 src={skill.img}

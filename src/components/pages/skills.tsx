@@ -1,4 +1,5 @@
 import SkillType from "../skill-type";
+
 export default function Skills() {
   return (
     <div className="mt-10 min-h-[100vh] mx-auto " id="skills">

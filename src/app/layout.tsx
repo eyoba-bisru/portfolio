@@ -8,8 +8,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "My Portfolio",
+  title: "Eyob Abebe",
+  icons: "/images/eyob-logo.png",
 };
 
 export default function RootLayout({
