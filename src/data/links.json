@@ -1,16 +1,19 @@
 [
   {
     "img": "/icons/telegram.svg",
+    "img-dark": "/icons/telegram.svg",
     "link": "https://t.me/eyoba_bisru"
   },
 
   {
     "img": "/icons/linkedin.png",
+    "img-dark": "/icons/linkedin.png",
     "link": "https://www.linkedin.com/in/eyob-abebe-8327b71a1/"
   },
 
   {
     "img": "/icons/github.svg",
+    "img-dark": "/icons/github-light.svg",
     "link": "https://t.me/eyoba_bisru"
   }
 ]

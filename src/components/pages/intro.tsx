@@ -9,7 +9,7 @@ export default function Intro() {
         {home["greet"]}
       </h2>
       <p
-        className="mt-8 text-md text-center text-gray-700"
+        className="mt-8 text-md text-center"
         dangerouslySetInnerHTML={{ __html: home["description"] }}
       />
       <div className="mt-20 flex items-center gap-8">

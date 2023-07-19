@@ -1,11 +1,16 @@
+"use client";
+
 import Image from "next/image";
 import skills from "../data/skills.json";
+import { useTheme } from "next-themes";
 
 type Props = {
   type: string;
 };
 
 export default function SkillType({ type }: Props) {
+  const { theme } = useTheme();
+
   return (
     <div className="flex flex-col items-center gap-6 mt-8 p-4 rounded-lg">
       <h3 className="text-lg">{type}</h3>
@@ -16,7 +21,7 @@ export default function SkillType({ type }: Props) {
             <div title={skill.title} className="w-16 h-16 relative">
               <Image
                 className="object-cover"
-                src={skill.img}
+                src={theme === "light" ? skill.img : skill["img-dark"]}
                 fill
                 alt={skill.title}
               />
